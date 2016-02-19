@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.home');
-});
+Route::get('/', [
+    'as' => 'home_path',
+    'uses' => 'PageController@getHome'
+]);
 
 /*
 |--------------------------------------------------------------------------

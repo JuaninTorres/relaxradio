@@ -5,17 +5,17 @@
 <!--[if (gte IE 10)|!(IE)]><!-->
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <!--<![endif]-->
-@include('partials.headpage')
+@include('partials.layout.headpage')
 <body id="fluidGridSystem">
 <div id="layout" class="full">
     @include('partials.popuplogin')
-    @include('partials.header')
-    @include('partials.slider')
+    @include('partials.layout.header')
+    @include('partials.widgets.slider')
     <div class="page-content">
         @yield('content')
     </div><!-- end page content -->
-    @include('partials.footer')
+    @include('partials.layout.footer')
 </div><!-- end layout -->
-@include('partials.footerpage')
+@include('partials.layout.footerpage')
 </body>
 </html>
