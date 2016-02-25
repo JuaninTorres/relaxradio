@@ -2,7 +2,7 @@
 
 @section('content')
 
-{{--    @include('partials.widgets.newvideos')--}}
+    @include('partials.widgets.ourstaff')
 
     <div class="row row-fluid clearfix mbf">
         <div class="span8">

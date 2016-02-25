@@ -12,7 +12,7 @@
     @include('partials.layout.header')
     @include('partials.widgets.slider')
     <div class="page-content">
-        @include('partials.widgets.musicplayer')
+{{--        @include('partials.widgets.musicplayer')--}}
         @yield('content')
     </div><!-- end page content -->
     @include('partials.layout.footer')
