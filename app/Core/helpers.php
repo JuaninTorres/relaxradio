@@ -11,3 +11,12 @@ function getCurrentRouteAlias()
 {
     return Route::getCurrentRoute()->getAction()['as'];
 }
+
+/**
+ * Retorna si estamos o no en el Home
+ * @return bool
+ */
+function isHomePath()
+{
+    return getCurrentRouteAlias() == 'home_path';
+}

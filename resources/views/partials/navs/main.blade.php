@@ -1,18 +1,15 @@
 <nav>
     <ul class="sf-menu">
-        <li class="current selectedLava"><a href="index.html">Inicio<span class="sub">Inicio Total</span></a>
+        <li class="current selected">
+            <a href="{{ route('home_path') }}">Inicio<span class="sub">Inicio Total</span></a>
             <ul>
 
             </ul>
         </li>
-        <li><a href="index.html">Nosotros<span class="sub">Conócenos</span></a>
+        <li><a href="#">Nosotros<span class="sub">Conócenos</span></a>
             <ul>
-                <li><a href="#">Quienes somos</a>
-
+                <li><a href="{{ route('aboutus_path') }}">Quienes somos</a>
                 </li>
-                <li><a href="shop.html">Metas</a>
-
-
             </ul>
         </li>
         <li><a href="mp3s.html">Galeria<span class="sub">Videos/Fotos</span></a>

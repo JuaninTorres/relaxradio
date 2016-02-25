@@ -16,6 +16,10 @@ Route::get('/', [
     'uses' => 'PageController@getHome'
 ]);
 
+Route::get('nosotros', [
+    'as' => 'aboutus_path',
+    'uses' => 'PageController@getAboutUs'
+]);
 /*
 |--------------------------------------------------------------------------
 | Application Routes
